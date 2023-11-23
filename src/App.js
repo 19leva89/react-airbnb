@@ -1,8 +1,14 @@
+import Attractions from "./component/attractions";
+import Amenities from "./component/amenities";
+import Contacts from "./component/contacts";
 import Description from "./component/description";
+import Details from "./component/details";
+import DetailsExtra from "./component/details-extra";
 import Header from "./component/header";
 import Page from "./component/page";
 import Photo from "./component/photo";
 import Price from "./component/price";
+import Reviews from "./component/reviews";
 import RoomList from "./component/room-list";
 import Title from "./component/title";
 
@@ -184,7 +190,50 @@ function App() {
 			<RoomList list={data.roomTypes} />
 
 			<Description title="Опис" children={data.description} />
+
+			<Details
+				guests={data.property_details.guests}
+				bedrooms={data.property_details.bedrooms}
+				beds={data.property_details.beds}
+				baths={data.property_details.baths}
+			/>
+
 			<Description title="Про сусідів" children={data.neighborhood_info} />
+
+			<Amenities
+				hasPool={data.amenities.hasPool}
+				hasGym={data.amenities.hasGym}
+				hasFreeBreakfast={data.amenities.hasFreeBreakfast}
+				hasFreeWiFi={data.amenities.hasFreeWiFi}
+				hasParking={data.amenities.hasParking}
+				hasPetsAllowed={data.amenities.hasPetsAllowed}
+				hasAirportShuttle={data.amenities.hasAirportShuttle}
+				hasConciergeService={data.amenities.hasConciergeService}
+				hasRoomService={data.amenities.hasRoomService}
+				hasChildFriendly={data.amenities.hasChildFriendly}
+			/>
+
+			<Contacts
+				name={data.contact_info.name}
+				image={data.contact_info.image}
+				response_rate={data.contact_info.response_rate}
+				response_time={data.contact_info.response_time}
+				info={data.contact_info.info}
+				phone={data.contact_info.phone}
+			/>
+
+			<DetailsExtra
+				rules={data.additional_properties.house_rules}
+				cancellation_policy={data.additional_properties.cancellation_policy}
+				transportation={data.additional_properties.local_transportation}
+				languages={data.additional_properties.host_languages}
+				offers={data.additional_properties.special_offers}
+				instructions={data.additional_properties["check-in_instructions"]}
+			/>
+
+			<Reviews list={data.guestReviews} />
+
+			<Attractions list={data.nearbyAttractions} />
 
 		</Page>
 	);

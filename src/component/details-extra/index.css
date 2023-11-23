@@ -1,0 +1,10 @@
+.details-extra {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+}
+
+.details-extra__list {
+	display: grid;
+	gap: 36px;
+}
