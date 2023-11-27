@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
-import Box from '../box'
-import Heading from '../heading'
+import Box from '../Box'
+import Heading from '../Heading'
 import './index.css'
 
 export default function RoomList({ list }) {

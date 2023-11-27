@@ -1,7 +1,7 @@
 import './index.css'
-import Box from '../box'
-import Heading from '../heading'
-import ListItem from '../list-item'
+import Box from '../Box'
+import Heading from '../Heading'
+import ListItem from '../ListItem'
 
 export default function DetailsExtra({ rules, cancellation_policy, transportation, languages, offers, instructions }) {
 	return (
