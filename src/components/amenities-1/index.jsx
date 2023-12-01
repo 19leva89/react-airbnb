@@ -1,5 +1,5 @@
-import Box from '../box'
-import Heading from '../heading'
+import Box from '../box-1'
+import Heading from '../heading-1'
 import ListItem from '../list-item'
 import pool from './pool.svg'
 import gym from './gym.svg'

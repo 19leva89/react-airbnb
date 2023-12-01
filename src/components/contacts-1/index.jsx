@@ -1,5 +1,5 @@
-import Description from '../description'
-import Heading from '../heading'
+import Description from '../description-1'
+import Heading from '../heading-1'
 import './style.css'
 
 export default function Contacts({
