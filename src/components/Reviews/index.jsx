@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
-import './index.css'
-import Heading from '../Heading'
-import Box from '../Box'
+import Heading from '../heading'
+import Box from '../box'
+import './style.css'
 
 export default function Reviews({ list }) {
 	return (

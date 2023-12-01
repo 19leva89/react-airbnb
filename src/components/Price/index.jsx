@@ -1,6 +1,6 @@
-import './index.css'
-import Box from '../Box'
-import ListItem from '../ListItem'
+import Box from '../box'
+import ListItem from '../list-item'
+import './style.css'
 
 export default function Price({ price, discount, currency, ...rest }) {
 	return (

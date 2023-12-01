@@ -1,11 +1,11 @@
-import './index.css'
-import Box from '../Box'
-import ListItem from '../ListItem'
+import Box from '../box'
+import ListItem from '../list-item'
 import guest from './guest.svg'
 import parentSharp from './parent-sharp.svg'
 import bed from './bed.svg'
 import bathroom from './bathroom.svg'
-import Heading from '../Heading'
+import Heading from '../heading'
+import './style.css'
 
 export default function Details({ guests, bedrooms, beds, baths }) {
 	return (

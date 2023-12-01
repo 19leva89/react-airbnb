@@ -1,4 +1,4 @@
-import './index.css'
+import './style.css'
 
 export default function ListItem({ children, imageSrc, title }) {
 	return (

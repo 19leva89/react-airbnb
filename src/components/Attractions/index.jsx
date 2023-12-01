@@ -1,7 +1,7 @@
-import './index.css'
-import Heading from '../Heading'
-import Box from '../Box'
 import { Fragment } from 'react'
+import Heading from '../heading'
+import Box from '../box'
+import './style.css'
 
 export default function Attractions({ list }) {
 	return (

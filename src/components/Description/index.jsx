@@ -1,5 +1,5 @@
-import Heading from '../Heading'
-import './index.css'
+import Heading from '../heading'
+import './style.css'
 
 export default function Description({ title, children }) {
 	return (

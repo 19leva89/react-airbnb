@@ -1,5 +1,5 @@
-import './index.css'
 import logo from './logo.svg'
+import './style.css'
 
 export default function Header() {
 	return (

@@ -1,7 +1,6 @@
-import './index.css'
-import Box from '../Box'
-import Heading from '../Heading'
-import ListItem from '../ListItem'
+import Box from '../box'
+import Heading from '../heading'
+import ListItem from '../list-item'
 import pool from './pool.svg'
 import gym from './gym.svg'
 import breakfast from './breakfast.svg'
@@ -12,6 +11,7 @@ import airportShuttle from './airport-shuttle.svg'
 import concierge from './concierge.svg'
 import roomService from './room-service.svg'
 import child from './child.svg'
+import './style.css'
 
 
 export default function Amenities(
