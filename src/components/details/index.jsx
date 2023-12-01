@@ -4,7 +4,7 @@ import guest from './guest.svg'
 import parentSharp from './parent-sharp.svg'
 import bed from './bed.svg'
 import bathroom from './bathroom.svg'
-import Heading from '../heading-1'
+import Heading from '../heading'
 import './style.css'
 
 export default function Details({ guests, bedrooms, beds, baths }) {
